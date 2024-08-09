@@ -158,7 +158,7 @@ public class HttpSourceReader extends AbstractSingleSplitReader<SeaTunnelRow> {
         try {
             if (pageInfoOptional.isPresent()) {
                 noMoreElementFlag = false;
-//                Long pageIndex = 1L;
+                //                Long pageIndex = 1L;
                 while (!noMoreElementFlag) {
                     PageInfo info = pageInfoOptional.get();
                     Long pageIndex = info.getPageIndex();
